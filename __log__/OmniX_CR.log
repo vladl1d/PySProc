@@ -1,0 +1,200 @@
+2019.02.26 12:03:35;INFO;===========================================================;shell.py;_init_log_system
+2019.02.26 12:03:35;INFO;Старт системы логирования. Уровень логирования: NOTSET;shell.py;_init_log_system
+2019.02.26 12:04:14;INFO;Остановка ноды;shell.py;stop
+2019.02.26 12:07:19;INFO;===========================================================;shell.py;_init_log_system
+2019.02.26 12:07:19;INFO;Старт системы логирования. Уровень логирования: NOTSET;shell.py;_init_log_system
+2019.02.26 12:07:57;INFO;Адаптер успешно проиницализирован;shell.py;_init_db_adapter
+2019.02.26 12:13:41;INFO;SELECT CAST(SERVERPROPERTY('ProductVersion') AS VARCHAR);log.py;info
+2019.02.26 12:13:41;INFO;();log.py;info
+2019.02.26 12:13:41;INFO;SELECT schema_name();log.py;info
+2019.02.26 12:13:41;INFO;();log.py;info
+2019.02.26 12:13:41;INFO;SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1;log.py;info
+2019.02.26 12:13:41;INFO;();log.py;info
+2019.02.26 12:13:41;INFO;SELECT CAST('test unicode returns' AS NVARCHAR(60)) AS anon_1;log.py;info
+2019.02.26 12:13:41;INFO;();log.py;info
+2019.02.26 12:13:41;INFO;BEGIN (implicit);log.py;info
+2019.02.26 12:13:41;INFO;SELECT dbo.[DS_Docs_Assignment_Types].[LINK] AS [dbo_DS_Docs_Assignment_Types_LINK], dbo.[DS_Contract_Status].[LINK] AS [dbo_DS_Contract_Status_LINK] 
+FROM dbo.[DS_Docs_Assignment_Types], dbo.[DS_Contract_Status];log.py;info
+2019.02.26 12:13:41;INFO;();log.py;info
+2019.02.26 12:48:33;INFO;===========================================================;shell.py;_init_log_system
+2019.02.26 12:48:33;INFO;Старт системы логирования. Уровень логирования: NOTSET;shell.py;_init_log_system
+2019.02.26 12:48:38;INFO;Адаптер успешно проиницализирован;shell.py;_init_db_adapter
+2019.02.26 12:48:38;INFO;Остановка ноды;shell.py;stop
+2019.02.26 12:55:54;INFO;===========================================================;shell.py;_init_log_system
+2019.02.26 12:55:54;INFO;Старт системы логирования. Уровень логирования: NOTSET;shell.py;_init_log_system
+2019.02.26 12:55:54;INFO;Адаптер успешно проиницализирован;shell.py;_init_db_adapter
+2019.02.26 12:55:54;INFO;Остановка ноды;shell.py;stop
+2019.02.26 13:00:09;INFO;===========================================================;shell.py;_init_log_system
+2019.02.26 13:00:09;INFO;Старт системы логирования. Уровень логирования: NOTSET;shell.py;_init_log_system
+2019.02.26 13:00:09;INFO;Адаптер успешно проиницализирован;shell.py;_init_db_adapter
+2019.02.26 13:00:09;INFO;Остановка ноды;shell.py;stop
+2019.02.26 13:09:24;INFO;Остановка ноды;shell.py;stop
+2019.02.26 13:21:54;INFO;===========================================================;shell.py;_init_log_system
+2019.02.26 13:21:54;INFO;Старт системы логирования. Уровень логирования: NOTSET;shell.py;_init_log_system
+2019.02.26 13:21:54;INFO;Адаптер успешно проиницализирован;shell.py;_init_db_adapter
+2019.02.26 13:22:57;INFO;SELECT CAST(SERVERPROPERTY('ProductVersion') AS VARCHAR);log.py;info
+2019.02.26 13:22:57;INFO;();log.py;info
+2019.02.26 13:22:57;INFO;SELECT schema_name();log.py;info
+2019.02.26 13:22:57;INFO;();log.py;info
+2019.02.26 13:22:57;INFO;SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1;log.py;info
+2019.02.26 13:22:57;INFO;();log.py;info
+2019.02.26 13:22:57;INFO;SELECT CAST('test unicode returns' AS NVARCHAR(60)) AS anon_1;log.py;info
+2019.02.26 13:22:57;INFO;();log.py;info
+2019.02.26 13:22:57;INFO;BEGIN (implicit);log.py;info
+2019.02.26 13:22:57;INFO;SELECT TOP 1 dbo.[DS_Docs_Assignment_Types].[LINK] AS [dbo_DS_Docs_Assignment_Types_LINK], dbo.[XpoState].[MarkerValue] AS [dbo_XpoState_MarkerValue] 
+FROM dbo.[DS_Docs_Assignment_Types] LEFT OUTER JOIN dbo.[XpoStateMachine] ON dbo.[XpoStateMachine].[Oid] = dbo.[DS_Docs_Assignment_Types].[F_State_Machine_Xaf] LEFT OUTER JOIN dbo.[XpoState] ON dbo.[XpoStateMachine].[StartState] = dbo.[XpoState].[Oid] 
+WHERE dbo.[DS_Docs_Assignment_Types].[C_Const] = ?;log.py;info
+2019.02.26 13:22:57;INFO;('DDAT_Act_Agree',);log.py;info
+2019.02.26 13:24:12;INFO;===========================================================;shell.py;_init_log_system
+2019.02.26 13:24:12;INFO;Старт системы логирования. Уровень логирования: NOTSET;shell.py;_init_log_system
+2019.02.26 13:24:12;INFO;Адаптер успешно проиницализирован;shell.py;_init_db_adapter
+2019.02.26 13:24:12;INFO;Остановка ноды;shell.py;stop
+2019.02.26 13:24:33;INFO;SELECT CAST(SERVERPROPERTY('ProductVersion') AS VARCHAR);log.py;info
+2019.02.26 13:24:33;INFO;();log.py;info
+2019.02.26 13:24:33;INFO;SELECT schema_name();log.py;info
+2019.02.26 13:24:33;INFO;();log.py;info
+2019.02.26 13:24:33;INFO;SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1;log.py;info
+2019.02.26 13:24:33;INFO;();log.py;info
+2019.02.26 13:24:33;INFO;SELECT CAST('test unicode returns' AS NVARCHAR(60)) AS anon_1;log.py;info
+2019.02.26 13:24:33;INFO;();log.py;info
+2019.02.26 13:24:33;INFO;BEGIN (implicit);log.py;info
+2019.02.26 13:24:33;INFO;SELECT TOP 1 dbo.[DS_Docs_Assignment_Types].[LINK] AS [dbo_DS_Docs_Assignment_Types_LINK], dbo.[XpoState].[MarkerValue] AS [dbo_XpoState_MarkerValue] 
+FROM dbo.[DS_Docs_Assignment_Types] LEFT OUTER JOIN dbo.[XpoStateMachine] ON dbo.[XpoStateMachine].[Oid] = dbo.[DS_Docs_Assignment_Types].[F_State_Machine_Xaf] LEFT OUTER JOIN dbo.[XpoState] ON dbo.[XpoStateMachine].[StartState] = dbo.[XpoState].[Oid] 
+WHERE dbo.[DS_Docs_Assignment_Types].[C_Const] = ?;log.py;info
+2019.02.26 13:24:33;INFO;('DDAT_Act_Agree',);log.py;info
+2019.02.26 13:36:52;INFO;===========================================================;shell.py;_init_log_system
+2019.02.26 13:36:52;INFO;Старт системы логирования. Уровень логирования: NOTSET;shell.py;_init_log_system
+2019.02.26 13:36:53;INFO;Адаптер успешно проиницализирован;shell.py;_init_db_adapter
+2019.02.26 13:36:53;INFO;Остановка ноды;shell.py;stop
+2019.02.26 13:37:19;INFO;SELECT CAST(SERVERPROPERTY('ProductVersion') AS VARCHAR);log.py;info
+2019.02.26 13:37:19;INFO;();log.py;info
+2019.02.26 13:37:19;INFO;SELECT schema_name();log.py;info
+2019.02.26 13:37:19;INFO;();log.py;info
+2019.02.26 13:37:19;INFO;SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1;log.py;info
+2019.02.26 13:37:19;INFO;();log.py;info
+2019.02.26 13:37:19;INFO;SELECT CAST('test unicode returns' AS NVARCHAR(60)) AS anon_1;log.py;info
+2019.02.26 13:37:19;INFO;();log.py;info
+2019.02.26 13:37:19;INFO;BEGIN (implicit);log.py;info
+2019.02.26 13:37:19;INFO;SELECT TOP 1 dbo.[DS_Docs_Assignment_Types].[LINK] AS [dbo_DS_Docs_Assignment_Types_LINK], dbo.[XpoState].[MarkerValue] AS [dbo_XpoState_MarkerValue] 
+FROM dbo.[DS_Docs_Assignment_Types] LEFT OUTER JOIN dbo.[XpoStateMachine] ON dbo.[XpoStateMachine].[Oid] = dbo.[DS_Docs_Assignment_Types].[F_State_Machine_Xaf] LEFT OUTER JOIN dbo.[XpoState] ON dbo.[XpoStateMachine].[StartState] = dbo.[XpoState].[Oid] 
+WHERE dbo.[DS_Docs_Assignment_Types].[C_Const] = ?;log.py;info
+2019.02.26 13:37:19;INFO;('DDAT_Act_Agree',);log.py;info
+2019.02.26 13:38:00;INFO;===========================================================;shell.py;_init_log_system
+2019.02.26 13:38:00;INFO;Старт системы логирования. Уровень логирования: NOTSET;shell.py;_init_log_system
+2019.02.26 13:38:00;INFO;Адаптер успешно проиницализирован;shell.py;_init_db_adapter
+2019.02.26 13:38:00;INFO;Остановка ноды;shell.py;stop
+2019.02.26 13:38:32;INFO;SELECT CAST(SERVERPROPERTY('ProductVersion') AS VARCHAR);log.py;info
+2019.02.26 13:38:32;INFO;();log.py;info
+2019.02.26 13:38:32;INFO;SELECT schema_name();log.py;info
+2019.02.26 13:38:32;INFO;();log.py;info
+2019.02.26 13:38:32;INFO;SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1;log.py;info
+2019.02.26 13:38:32;INFO;();log.py;info
+2019.02.26 13:38:32;INFO;SELECT CAST('test unicode returns' AS NVARCHAR(60)) AS anon_1;log.py;info
+2019.02.26 13:38:32;INFO;();log.py;info
+2019.02.26 13:38:32;INFO;BEGIN (implicit);log.py;info
+2019.02.26 13:38:32;INFO;SELECT TOP 1 dbo.[DS_Docs_Assignment_Types].[LINK] AS [dbo_DS_Docs_Assignment_Types_LINK], dbo.[XpoState].[MarkerValue] AS [dbo_XpoState_MarkerValue] 
+FROM dbo.[DS_Docs_Assignment_Types] LEFT OUTER JOIN dbo.[XpoStateMachine] ON dbo.[XpoStateMachine].[Oid] = dbo.[DS_Docs_Assignment_Types].[F_State_Machine_Xaf] LEFT OUTER JOIN dbo.[XpoState] ON dbo.[XpoStateMachine].[StartState] = dbo.[XpoState].[Oid] 
+WHERE dbo.[DS_Docs_Assignment_Types].[C_Const] = ?;log.py;info
+2019.02.26 13:38:32;INFO;('DDAT_Act_Agree',);log.py;info
+2019.02.26 13:39:35;INFO;===========================================================;shell.py;_init_log_system
+2019.02.26 13:39:35;INFO;Старт системы логирования. Уровень логирования: NOTSET;shell.py;_init_log_system
+2019.02.26 13:39:35;INFO;Адаптер успешно проиницализирован;shell.py;_init_db_adapter
+2019.02.26 13:39:35;INFO;Остановка ноды;shell.py;stop
+2019.02.26 13:40:15;INFO;SELECT CAST(SERVERPROPERTY('ProductVersion') AS VARCHAR);log.py;info
+2019.02.26 13:40:15;INFO;();log.py;info
+2019.02.26 13:40:15;INFO;SELECT schema_name();log.py;info
+2019.02.26 13:40:15;INFO;();log.py;info
+2019.02.26 13:40:15;INFO;SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1;log.py;info
+2019.02.26 13:40:15;INFO;();log.py;info
+2019.02.26 13:40:15;INFO;SELECT CAST('test unicode returns' AS NVARCHAR(60)) AS anon_1;log.py;info
+2019.02.26 13:40:15;INFO;();log.py;info
+2019.02.26 13:40:15;INFO;BEGIN (implicit);log.py;info
+2019.02.26 13:40:15;INFO;SELECT TOP 1 dbo.[DS_Docs_Assignment_Types].[LINK] AS [dbo_DS_Docs_Assignment_Types_LINK], dbo.[XpoState].[MarkerValue] AS [dbo_XpoState_MarkerValue] 
+FROM dbo.[DS_Docs_Assignment_Types] LEFT OUTER JOIN dbo.[XpoStateMachine] ON dbo.[XpoStateMachine].[Oid] = dbo.[DS_Docs_Assignment_Types].[F_State_Machine_Xaf] LEFT OUTER JOIN dbo.[XpoState] ON dbo.[XpoStateMachine].[StartState] = dbo.[XpoState].[Oid] 
+WHERE dbo.[DS_Docs_Assignment_Types].[C_Const] = ?;log.py;info
+2019.02.26 13:40:15;INFO;('DDAT_Act_Agree',);log.py;info
+2019.02.26 13:40:20;INFO;SELECT dbo.[CS_Users].[LINK] AS [dbo_CS_Users_LINK] 
+FROM dbo.[CS_Users] 
+WHERE dbo.[CS_Users].[C_Name] = ?;log.py;info
+2019.02.26 13:40:20;INFO;('compulink\x0b-liderman',);log.py;info
+2019.02.26 13:41:24;INFO;===========================================================;shell.py;_init_log_system
+2019.02.26 13:41:24;INFO;Старт системы логирования. Уровень логирования: NOTSET;shell.py;_init_log_system
+2019.02.26 13:41:24;INFO;Адаптер успешно проиницализирован;shell.py;_init_db_adapter
+2019.02.26 13:41:24;INFO;Остановка ноды;shell.py;stop
+2019.02.26 13:43:26;INFO;SELECT CAST(SERVERPROPERTY('ProductVersion') AS VARCHAR);log.py;info
+2019.02.26 13:43:26;INFO;();log.py;info
+2019.02.26 13:43:26;INFO;SELECT schema_name();log.py;info
+2019.02.26 13:43:26;INFO;();log.py;info
+2019.02.26 13:43:26;INFO;SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1;log.py;info
+2019.02.26 13:43:26;INFO;();log.py;info
+2019.02.26 13:43:26;INFO;SELECT CAST('test unicode returns' AS NVARCHAR(60)) AS anon_1;log.py;info
+2019.02.26 13:43:26;INFO;();log.py;info
+2019.02.26 13:43:26;INFO;BEGIN (implicit);log.py;info
+2019.02.26 13:43:26;INFO;SELECT TOP 1 dbo.[DS_Docs_Assignment_Types].[LINK] AS [dbo_DS_Docs_Assignment_Types_LINK], dbo.[XpoState].[MarkerValue] AS [dbo_XpoState_MarkerValue] 
+FROM dbo.[DS_Docs_Assignment_Types] LEFT OUTER JOIN dbo.[XpoStateMachine] ON dbo.[XpoStateMachine].[Oid] = dbo.[DS_Docs_Assignment_Types].[F_State_Machine_Xaf] LEFT OUTER JOIN dbo.[XpoState] ON dbo.[XpoStateMachine].[StartState] = dbo.[XpoState].[Oid] 
+WHERE dbo.[DS_Docs_Assignment_Types].[C_Const] = ?;log.py;info
+2019.02.26 13:43:26;INFO;('DDAT_Act_Agree',);log.py;info
+2019.02.26 13:43:29;INFO;SELECT dbo.[CS_Users].[LINK] AS [dbo_CS_Users_LINK] 
+FROM dbo.[CS_Users] 
+WHERE dbo.[CS_Users].[C_Name] = ?;log.py;info
+2019.02.26 13:43:29;INFO;('compulink\\v-liderman',);log.py;info
+2019.02.26 13:44:22;INFO;INSERT INTO dbo.[DD_Docs_Assignments] ([F_Division], [F_Docs], [F_Docs_Assignment_Types], [F_Employers], [F_Initial_Contract_Status], [F_Final_Contract_Status], [F_MRU], [F_Order_Employer], [F_Contract_Status_Assignment], [D_Date], [C_Resolution], [C_Report], [D_Done_Date], [D_NeedToDo_Date], [D_BeginWorkDate], [D_Date_Close], string1, string2, string3, string4, string5, string6, string7, string8, string9, string10, string11, string12, string13, string14, string15, string16, money1, money2, money3, money4, money5, money6, money7, money8, money9, money10, money11, money12, money13, money14, money15, money16, datetime1, datetime2, datetime3, datetime4, datetime5, datetime6, datetime7, datetime8, datetime9, datetime10, datetime11, datetime12, datetime13, datetime14, datetime15, datetime16, int1, int2, int3, int4, int5, int6, int7, int8, int9, int10, int11, int12, int13, int14, int15, int16, [S_Owner], [S_Modif_Date], [LINK_Imp], [F_Subscr], [F_Partners_Contacts], [N_Number], [F_Employer_Profiles_Xaf], [F_Partners], [F_Partner_Employer], [D_Status_Date], [OptimisticLockField], [D_Active_Date], [D_Doc_Date], [F_Recomendation], [N_Doc_Amount], [N_Period_Charge], [F_Specifying_Result]) OUTPUT inserted.[LINK] VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);log.py;info
+2019.02.26 13:44:22;INFO;(20, None, 8, (-1090649170,), None, None, None, None, None, datetime.datetime(2019, 2, 26, 13, 42, 55, 481207), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None);log.py;info
+2019.02.26 13:44:22;INFO;ROLLBACK;log.py;info
+2019.02.26 13:47:20;INFO;===========================================================;shell.py;_init_log_system
+2019.02.26 13:47:20;INFO;Старт системы логирования. Уровень логирования: NOTSET;shell.py;_init_log_system
+2019.02.26 13:47:20;INFO;Адаптер успешно проиницализирован;shell.py;_init_db_adapter
+2019.02.26 13:47:20;INFO;Остановка ноды;shell.py;stop
+2019.02.26 13:48:52;INFO;===========================================================;shell.py;_init_log_system
+2019.02.26 13:48:52;INFO;Старт системы логирования. Уровень логирования: NOTSET;shell.py;_init_log_system
+2019.02.26 13:48:52;INFO;Адаптер успешно проиницализирован;shell.py;_init_db_adapter
+2019.02.26 13:48:52;INFO;Остановка ноды;shell.py;stop
+2019.02.26 13:50:06;INFO;SELECT CAST(SERVERPROPERTY('ProductVersion') AS VARCHAR);log.py;info
+2019.02.26 13:50:06;INFO;();log.py;info
+2019.02.26 13:50:06;INFO;SELECT schema_name();log.py;info
+2019.02.26 13:50:06;INFO;();log.py;info
+2019.02.26 13:50:06;INFO;SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1;log.py;info
+2019.02.26 13:50:06;INFO;();log.py;info
+2019.02.26 13:50:06;INFO;SELECT CAST('test unicode returns' AS NVARCHAR(60)) AS anon_1;log.py;info
+2019.02.26 13:50:06;INFO;();log.py;info
+2019.02.26 13:50:06;INFO;BEGIN (implicit);log.py;info
+2019.02.26 13:50:06;INFO;SELECT TOP 1 dbo.[DS_Docs_Assignment_Types].[LINK] AS [dbo_DS_Docs_Assignment_Types_LINK], dbo.[XpoState].[MarkerValue] AS [dbo_XpoState_MarkerValue] 
+FROM dbo.[DS_Docs_Assignment_Types] LEFT OUTER JOIN dbo.[XpoStateMachine] ON dbo.[XpoStateMachine].[Oid] = dbo.[DS_Docs_Assignment_Types].[F_State_Machine_Xaf] LEFT OUTER JOIN dbo.[XpoState] ON dbo.[XpoStateMachine].[StartState] = dbo.[XpoState].[Oid] 
+WHERE dbo.[DS_Docs_Assignment_Types].[C_Const] = ?;log.py;info
+2019.02.26 13:50:06;INFO;('DDAT_Act_Agree',);log.py;info
+2019.02.26 13:50:12;INFO;SELECT dbo.[CS_Users].[LINK] AS [dbo_CS_Users_LINK] 
+FROM dbo.[CS_Users] 
+WHERE dbo.[CS_Users].[C_Name] = ?;log.py;info
+2019.02.26 13:50:12;INFO;('compulink\\v-liderman',);log.py;info
+2019.02.26 13:50:28;INFO;INSERT INTO dbo.[DD_Docs_Assignments] ([F_Division], [F_Docs], [F_Docs_Assignment_Types], [F_Employers], [F_Initial_Contract_Status], [F_Final_Contract_Status], [F_MRU], [F_Order_Employer], [F_Contract_Status_Assignment], [D_Date], [C_Resolution], [C_Report], [D_Done_Date], [D_NeedToDo_Date], [D_BeginWorkDate], [D_Date_Close], string1, string2, string3, string4, string5, string6, string7, string8, string9, string10, string11, string12, string13, string14, string15, string16, money1, money2, money3, money4, money5, money6, money7, money8, money9, money10, money11, money12, money13, money14, money15, money16, datetime1, datetime2, datetime3, datetime4, datetime5, datetime6, datetime7, datetime8, datetime9, datetime10, datetime11, datetime12, datetime13, datetime14, datetime15, datetime16, int1, int2, int3, int4, int5, int6, int7, int8, int9, int10, int11, int12, int13, int14, int15, int16, [S_Owner], [S_Modif_Date], [LINK_Imp], [F_Subscr], [F_Partners_Contacts], [N_Number], [F_Employer_Profiles_Xaf], [F_Partners], [F_Partner_Employer], [D_Status_Date], [OptimisticLockField], [D_Active_Date], [D_Doc_Date], [F_Recomendation], [N_Doc_Amount], [N_Period_Charge], [F_Specifying_Result]) OUTPUT inserted.[LINK] VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);log.py;info
+2019.02.26 13:50:28;INFO;(20, None, 8, -1090649170, None, None, None, None, None, datetime.datetime(2019, 2, 26, 13, 49, 4, 44322), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None);log.py;info
+2019.02.26 13:50:28;INFO;ROLLBACK;log.py;info
+2019.02.26 13:57:26;INFO;===========================================================;shell.py;_init_log_system
+2019.02.26 13:57:26;INFO;Старт системы логирования. Уровень логирования: NOTSET;shell.py;_init_log_system
+2019.02.26 13:57:26;INFO;Адаптер успешно проиницализирован;shell.py;_init_db_adapter
+2019.02.26 13:57:26;INFO;Остановка ноды;shell.py;stop
+2019.02.26 13:58:15;INFO;SELECT CAST(SERVERPROPERTY('ProductVersion') AS VARCHAR);log.py;info
+2019.02.26 13:58:15;INFO;();log.py;info
+2019.02.26 13:58:16;INFO;SELECT schema_name();log.py;info
+2019.02.26 13:58:16;INFO;();log.py;info
+2019.02.26 13:58:16;INFO;SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1;log.py;info
+2019.02.26 13:58:16;INFO;();log.py;info
+2019.02.26 13:58:16;INFO;SELECT CAST('test unicode returns' AS NVARCHAR(60)) AS anon_1;log.py;info
+2019.02.26 13:58:16;INFO;();log.py;info
+2019.02.26 13:58:16;INFO;BEGIN (implicit);log.py;info
+2019.02.26 13:58:16;INFO;SELECT TOP 1 dbo.[DS_Docs_Assignment_Types].[LINK] AS [dbo_DS_Docs_Assignment_Types_LINK], dbo.[XpoState].[MarkerValue] AS [dbo_XpoState_MarkerValue] 
+FROM dbo.[DS_Docs_Assignment_Types] LEFT OUTER JOIN dbo.[XpoStateMachine] ON dbo.[XpoStateMachine].[Oid] = dbo.[DS_Docs_Assignment_Types].[F_State_Machine_Xaf] LEFT OUTER JOIN dbo.[XpoState] ON dbo.[XpoStateMachine].[StartState] = dbo.[XpoState].[Oid] 
+WHERE dbo.[DS_Docs_Assignment_Types].[C_Const] = ?;log.py;info
+2019.02.26 13:58:16;INFO;('DDAT_Act_Agree',);log.py;info
+2019.02.26 13:58:20;INFO;SELECT dbo.[SD_Employers].[LINK] AS [dbo_SD_Employers_LINK] 
+FROM dbo.[SD_Employers] 
+WHERE dbo.[SD_Employers].[C_UID] = ?;log.py;info
+2019.02.26 13:58:20;INFO;('COMPULINK\\ilner-ivanov',);log.py;info
+2019.02.26 13:59:00;INFO;INSERT INTO dbo.[DD_Docs_Assignments] ([F_Division], [F_Docs], [F_Docs_Assignment_Types], [F_Employers], [F_Initial_Contract_Status], [F_Final_Contract_Status], [F_MRU], [F_Order_Employer], [F_Contract_Status_Assignment], [D_Date], [C_Resolution], [C_Report], [D_Done_Date], [D_NeedToDo_Date], [D_BeginWorkDate], [D_Date_Close], string1, string2, string3, string4, string5, string6, string7, string8, string9, string10, string11, string12, string13, string14, string15, string16, money1, money2, money3, money4, money5, money6, money7, money8, money9, money10, money11, money12, money13, money14, money15, money16, datetime1, datetime2, datetime3, datetime4, datetime5, datetime6, datetime7, datetime8, datetime9, datetime10, datetime11, datetime12, datetime13, datetime14, datetime15, datetime16, int1, int2, int3, int4, int5, int6, int7, int8, int9, int10, int11, int12, int13, int14, int15, int16, [S_Owner], [S_Modif_Date], [LINK_Imp], [F_Subscr], [F_Partners_Contacts], [N_Number], [F_Employer_Profiles_Xaf], [F_Partners], [F_Partner_Employer], [D_Status_Date], [OptimisticLockField], [D_Active_Date], [D_Doc_Date], [F_Recomendation], [N_Doc_Amount], [N_Period_Charge], [F_Specifying_Result]) OUTPUT inserted.[LINK] VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);log.py;info
+2019.02.26 13:59:00;INFO;(20, None, 8, 'D461F459-DC01-45B9-BED3-59A8C6F6977F', None, None, None, None, None, datetime.datetime(2019, 2, 26, 13, 57, 41, 84312), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None);log.py;info
+2019.02.26 13:59:01;INFO;COMMIT;log.py;info
+2019.02.26 13:59:12;INFO;BEGIN (implicit);log.py;info
+2019.02.26 13:59:12;INFO;SELECT dbo.[DD_Docs_Assignments].[F_Division] AS [dbo_DD_Docs_Assignments_F_Division], dbo.[DD_Docs_Assignments].[F_SubDivision] AS [dbo_DD_Docs_Assignments_F_SubDivision], dbo.[DD_Docs_Assignments].[LINK] AS [dbo_DD_Docs_Assignments_LINK], dbo.[DD_Docs_Assignments].[F_Docs] AS [dbo_DD_Docs_Assignments_F_Docs], dbo.[DD_Docs_Assignments].[F_Docs_Assignment_Types] AS [dbo_DD_Docs_Assignments_F_Docs_Assignment_Types], dbo.[DD_Docs_Assignments].[F_Employers] AS [dbo_DD_Docs_Assignments_F_Employers], dbo.[DD_Docs_Assignments].[F_Initial_Contract_Status] AS [dbo_DD_Docs_Assignments_F_Initial_Contract_Status], dbo.[DD_Docs_Assignments].[F_Final_Contract_Status] AS [dbo_DD_Docs_Assignments_F_Final_Contract_Status], dbo.[DD_Docs_Assignments].[F_MRU] AS [dbo_DD_Docs_Assignments_F_MRU], dbo.[DD_Docs_Assignments].[F_Order_Employer] AS [dbo_DD_Docs_Assignments_F_Order_Employer], dbo.[DD_Docs_Assignments].[F_Contract_Status_Assignment] AS [dbo_DD_Docs_Assignments_F_Contract_Status_Assignment], dbo.[DD_Docs_Assignments].[D_Date] AS [dbo_DD_Docs_Assignments_D_Date], dbo.[DD_Docs_Assignments].[C_Resolution] AS [dbo_DD_Docs_Assignments_C_Resolution], dbo.[DD_Docs_Assignments].[C_Report] AS [dbo_DD_Docs_Assignments_C_Report], dbo.[DD_Docs_Assignments].[B_Done] AS [dbo_DD_Docs_Assignments_B_Done], dbo.[DD_Docs_Assignments].[D_Done_Date] AS [dbo_DD_Docs_Assignments_D_Done_Date], dbo.[DD_Docs_Assignments].[D_NeedToDo_Date] AS [dbo_DD_Docs_Assignments_D_NeedToDo_Date], dbo.[DD_Docs_Assignments].[D_BeginWorkDate] AS [dbo_DD_Docs_Assignments_D_BeginWorkDate], dbo.[DD_Docs_Assignments].[D_Date_Close] AS [dbo_DD_Docs_Assignments_D_Date_Close], dbo.[DD_Docs_Assignments].string1 AS [dbo_DD_Docs_Assignments_string1], dbo.[DD_Docs_Assignments].string2 AS [dbo_DD_Docs_Assignments_string2], dbo.[DD_Docs_Assignments].string3 AS [dbo_DD_Docs_Assignments_string3], dbo.[DD_Docs_Assignments].string4 AS [dbo_DD_Docs_Assignments_string4], dbo.[DD_Docs_Assignments].string5 AS [dbo_DD_Docs_Assignments_string5], dbo.[DD_Docs_Assignments].string6 AS [dbo_DD_Docs_Assignments_string6], dbo.[DD_Docs_Assignments].string7 AS [dbo_DD_Docs_Assignments_string7], dbo.[DD_Docs_Assignments].string8 AS [dbo_DD_Docs_Assignments_string8], dbo.[DD_Docs_Assignments].string9 AS [dbo_DD_Docs_Assignments_string9], dbo.[DD_Docs_Assignments].string10 AS [dbo_DD_Docs_Assignments_string10], dbo.[DD_Docs_Assignments].string11 AS [dbo_DD_Docs_Assignments_string11], dbo.[DD_Docs_Assignments].string12 AS [dbo_DD_Docs_Assignments_string12], dbo.[DD_Docs_Assignments].string13 AS [dbo_DD_Docs_Assignments_string13], dbo.[DD_Docs_Assignments].string14 AS [dbo_DD_Docs_Assignments_string14], dbo.[DD_Docs_Assignments].string15 AS [dbo_DD_Docs_Assignments_string15], dbo.[DD_Docs_Assignments].string16 AS [dbo_DD_Docs_Assignments_string16], dbo.[DD_Docs_Assignments].money1 AS [dbo_DD_Docs_Assignments_money1], dbo.[DD_Docs_Assignments].money2 AS [dbo_DD_Docs_Assignments_money2], dbo.[DD_Docs_Assignments].money3 AS [dbo_DD_Docs_Assignments_money3], dbo.[DD_Docs_Assignments].money4 AS [dbo_DD_Docs_Assignments_money4], dbo.[DD_Docs_Assignments].money5 AS [dbo_DD_Docs_Assignments_money5], dbo.[DD_Docs_Assignments].money6 AS [dbo_DD_Docs_Assignments_money6], dbo.[DD_Docs_Assignments].money7 AS [dbo_DD_Docs_Assignments_money7], dbo.[DD_Docs_Assignments].money8 AS [dbo_DD_Docs_Assignments_money8], dbo.[DD_Docs_Assignments].money9 AS [dbo_DD_Docs_Assignments_money9], dbo.[DD_Docs_Assignments].money10 AS [dbo_DD_Docs_Assignments_money10], dbo.[DD_Docs_Assignments].money11 AS [dbo_DD_Docs_Assignments_money11], dbo.[DD_Docs_Assignments].money12 AS [dbo_DD_Docs_Assignments_money12], dbo.[DD_Docs_Assignments].money13 AS [dbo_DD_Docs_Assignments_money13], dbo.[DD_Docs_Assignments].money14 AS [dbo_DD_Docs_Assignments_money14], dbo.[DD_Docs_Assignments].money15 AS [dbo_DD_Docs_Assignments_money15], dbo.[DD_Docs_Assignments].money16 AS [dbo_DD_Docs_Assignments_money16], dbo.[DD_Docs_Assignments].datetime1 AS [dbo_DD_Docs_Assignments_datetime1], dbo.[DD_Docs_Assignments].datetime2 AS [dbo_DD_Docs_Assignments_datetime2], dbo.[DD_Docs_Assignments].datetime3 AS [dbo_DD_Docs_Assignments_datetime3], dbo.[DD_Docs_Assignments].datetime4 AS [dbo_DD_Docs_Assignments_datetime4], dbo.[DD_Docs_Assignments].datetime5 AS [dbo_DD_Docs_Assignments_datetime5], dbo.[DD_Docs_Assignments].datetime6 AS [dbo_DD_Docs_Assignments_datetime6], dbo.[DD_Docs_Assignments].datetime7 AS [dbo_DD_Docs_Assignments_datetime7], dbo.[DD_Docs_Assignments].datetime8 AS [dbo_DD_Docs_Assignments_datetime8], dbo.[DD_Docs_Assignments].datetime9 AS [dbo_DD_Docs_Assignments_datetime9], dbo.[DD_Docs_Assignments].datetime10 AS [dbo_DD_Docs_Assignments_datetime10], dbo.[DD_Docs_Assignments].datetime11 AS [dbo_DD_Docs_Assignments_datetime11], dbo.[DD_Docs_Assignments].datetime12 AS [dbo_DD_Docs_Assignments_datetime12], dbo.[DD_Docs_Assignments].datetime13 AS [dbo_DD_Docs_Assignments_datetime13], dbo.[DD_Docs_Assignments].datetime14 AS [dbo_DD_Docs_Assignments_datetime14], dbo.[DD_Docs_Assignments].datetime15 AS [dbo_DD_Docs_Assignments_datetime15], dbo.[DD_Docs_Assignments].datetime16 AS [dbo_DD_Docs_Assignments_datetime16], dbo.[DD_Docs_Assignments].bit1 AS [dbo_DD_Docs_Assignments_bit1], dbo.[DD_Docs_Assignments].bit2 AS [dbo_DD_Docs_Assignments_bit2], dbo.[DD_Docs_Assignments].bit3 AS [dbo_DD_Docs_Assignments_bit3], dbo.[DD_Docs_Assignments].bit4 AS [dbo_DD_Docs_Assignments_bit4], dbo.[DD_Docs_Assignments].bit5 AS [dbo_DD_Docs_Assignments_bit5], dbo.[DD_Docs_Assignments].bit6 AS [dbo_DD_Docs_Assignments_bit6], dbo.[DD_Docs_Assignments].bit7 AS [dbo_DD_Docs_Assignments_bit7], dbo.[DD_Docs_Assignments].bit8 AS [dbo_DD_Docs_Assignments_bit8], dbo.[DD_Docs_Assignments].bit9 AS [dbo_DD_Docs_Assignments_bit9], dbo.[DD_Docs_Assignments].bit10 AS [dbo_DD_Docs_Assignments_bit10], dbo.[DD_Docs_Assignments].bit11 AS [dbo_DD_Docs_Assignments_bit11], dbo.[DD_Docs_Assignments].bit12 AS [dbo_DD_Docs_Assignments_bit12], dbo.[DD_Docs_Assignments].bit13 AS [dbo_DD_Docs_Assignments_bit13], dbo.[DD_Docs_Assignments].bit14 AS [dbo_DD_Docs_Assignments_bit14], dbo.[DD_Docs_Assignments].bit15 AS [dbo_DD_Docs_Assignments_bit15], dbo.[DD_Docs_Assignments].bit16 AS [dbo_DD_Docs_Assignments_bit16], dbo.[DD_Docs_Assignments].int1 AS [dbo_DD_Docs_Assignments_int1], dbo.[DD_Docs_Assignments].int2 AS [dbo_DD_Docs_Assignments_int2], dbo.[DD_Docs_Assignments].int3 AS [dbo_DD_Docs_Assignments_int3], dbo.[DD_Docs_Assignments].int4 AS [dbo_DD_Docs_Assignments_int4], dbo.[DD_Docs_Assignments].int5 AS [dbo_DD_Docs_Assignments_int5], dbo.[DD_Docs_Assignments].int6 AS [dbo_DD_Docs_Assignments_int6], dbo.[DD_Docs_Assignments].int7 AS [dbo_DD_Docs_Assignments_int7], dbo.[DD_Docs_Assignments].int8 AS [dbo_DD_Docs_Assignments_int8], dbo.[DD_Docs_Assignments].int9 AS [dbo_DD_Docs_Assignments_int9], dbo.[DD_Docs_Assignments].int10 AS [dbo_DD_Docs_Assignments_int10], dbo.[DD_Docs_Assignments].int11 AS [dbo_DD_Docs_Assignments_int11], dbo.[DD_Docs_Assignments].int12 AS [dbo_DD_Docs_Assignments_int12], dbo.[DD_Docs_Assignments].int13 AS [dbo_DD_Docs_Assignments_int13], dbo.[DD_Docs_Assignments].int14 AS [dbo_DD_Docs_Assignments_int14], dbo.[DD_Docs_Assignments].int15 AS [dbo_DD_Docs_Assignments_int15], dbo.[DD_Docs_Assignments].int16 AS [dbo_DD_Docs_Assignments_int16], dbo.[DD_Docs_Assignments].[S_Creator] AS [dbo_DD_Docs_Assignments_S_Creator], dbo.[DD_Docs_Assignments].[S_Owner] AS [dbo_DD_Docs_Assignments_S_Owner], dbo.[DD_Docs_Assignments].[S_Create_Date] AS [dbo_DD_Docs_Assignments_S_Create_Date], dbo.[DD_Docs_Assignments].[S_Modif_Date] AS [dbo_DD_Docs_Assignments_S_Modif_Date], dbo.[DD_Docs_Assignments].[S_RowGUID] AS [dbo_DD_Docs_Assignments_S_RowGUID], dbo.[DD_Docs_Assignments].[LINK_Imp] AS [dbo_DD_Docs_Assignments_LINK_Imp], dbo.[DD_Docs_Assignments].[F_Subscr] AS [dbo_DD_Docs_Assignments_F_Subscr], dbo.[DD_Docs_Assignments].[F_Partners_Contacts] AS [dbo_DD_Docs_Assignments_F_Partners_Contacts], dbo.[DD_Docs_Assignments].[N_Number] AS [dbo_DD_Docs_Assignments_N_Number], dbo.[DD_Docs_Assignments].[F_Employer_Profiles_Xaf] AS [dbo_DD_Docs_Assignments_F_Employer_Profiles_Xaf], dbo.[DD_Docs_Assignments].[F_Partners] AS [dbo_DD_Docs_Assignments_F_Partners], dbo.[DD_Docs_Assignments].[F_Partner_Employer] AS [dbo_DD_Docs_Assignments_F_Partner_Employer], dbo.[DD_Docs_Assignments].[D_Status_Date] AS [dbo_DD_Docs_Assignments_D_Status_Date], dbo.[DD_Docs_Assignments].[OptimisticLockField] AS [dbo_DD_Docs_Assignments_OptimisticLockField], dbo.[DD_Docs_Assignments].[B_Auto_Create] AS [dbo_DD_Docs_Assignments_B_Auto_Create], dbo.[DD_Docs_Assignments].[D_Active_Date] AS [dbo_DD_Docs_Assignments_D_Active_Date], dbo.[DD_Docs_Assignments].[D_Doc_Date] AS [dbo_DD_Docs_Assignments_D_Doc_Date], dbo.[DD_Docs_Assignments].[F_Recomendation] AS [dbo_DD_Docs_Assignments_F_Recomendation], dbo.[DD_Docs_Assignments].[N_Doc_Amount] AS [dbo_DD_Docs_Assignments_N_Doc_Amount], dbo.[DD_Docs_Assignments].[N_Period_Charge] AS [dbo_DD_Docs_Assignments_N_Period_Charge], dbo.[DD_Docs_Assignments].[F_Specifying_Result] AS [dbo_DD_Docs_Assignments_F_Specifying_Result] 
+FROM dbo.[DD_Docs_Assignments] 
+WHERE dbo.[DD_Docs_Assignments].[LINK] = ?;log.py;info
+2019.02.26 13:59:12;INFO;(540,);log.py;info
